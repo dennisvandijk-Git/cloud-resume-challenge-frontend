@@ -33,7 +33,7 @@
 
   .left-side {
     align-items: flex-start;
-    border-bottom: #9179b7 solid 0.15em;
+    border-bottom: #da845c solid 0.15em;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
   }
@@ -54,7 +54,7 @@
 
   .right-wrapper {
     display: flex;
-    border-bottom: #9179b7 solid 0.15em;
+    border-bottom: #da845c solid 0.15em;
     flex-direction: column-reverse;
     text-align: left;
     padding: 0;
@@ -64,8 +64,8 @@
 
   .right-wrapper .experience {
     padding-top: 0.8em;
-    border-top: #9179b7 solid 0.15em;
-    border-bottom: #9179b7 solid 0.15em;
+    border-top: #da845c solid 0.15em;
+    border-bottom: #da845c solid 0.15em;
     text-align: left;
     order: 0;
   }
@@ -79,9 +79,9 @@
   }
 
   .foto img {
-    border-top: 5px solid #79b791;
-    border-left: 5px solid #79b791;
-    border-right: 5px solid #79b791;
+    border-top: 5px solid #79b1b7;
+    border-left: 5px solid #79b1b7;
+    border-right: 5px solid #79b1b7;
   }
 
   a {
@@ -107,7 +107,7 @@
 
 @media (max-width: 480px) {
   header {
-    height: 10em;
+    height: 12em;
   }
 
   .blog-header h1 {
@@ -125,12 +125,40 @@
 }
 
 @media (max-width: 410px) {
+  .resume-container {
+    margin: 0px;
+    padding: 0px;
+  }
+  #resume-header {
+    margin-bottom: -65px;
+  }
+  .foto {
+    z-index: 2;
+    /* padding: 0; */
+  }
   header {
-    height: 12em;
+    height: 8em;
+    /* border-bottom: #da845c solid 0.08em; */
+    /* padding-bottom: 0px; */
+    display: flex;
+    /* align-items: start; */
+    justify-content: start;
+  }
+  header h1 {
+    text-decoration: none;
+    font-size: 2.1em;
+    font-weight: 500;
+    font-family: "IBM Plex Mono", sans-serif;
+    letter-spacing: 1px;
+    align-content: start;
+    display: flex;
   }
 
-  header p {
+  header h3 {
     letter-spacing: normal;
+    font-size: 0.55em;
+    font-style: normal;
+    /* display: none; */
   }
   .blog-header h1 {
     letter-spacing: 0.2rem;

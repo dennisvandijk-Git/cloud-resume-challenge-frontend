@@ -88,7 +88,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 15em;
-  background-image: linear-gradient(to top right, #79b791, #5b9471);
+  background-image: linear-gradient(to top right, #79b1b7, #5b9294);
   flex-direction: column;
 }
 
@@ -107,6 +107,7 @@ header h1 {
 }
 
 header h3 {
+  text-align: center;
   font-family: "IBM Plex Mono", sans-serif;
   font-family: "IBM Plex Mono Light", sans-serif;
   font-family: "IBM Plex Mono Thin", sans-serif;
@@ -116,7 +117,7 @@ header h3 {
   display: flex;
   color: white;
   font-size: 1.25em;
-  font-size: clamp(0.8rem, 1vw + 0.5rem, 1.25rem);
+  font-size: clamp(0.8rem, 0.9vw + 0.5rem, 1.25rem);
   z-index: 2;
 }
 
@@ -130,7 +131,7 @@ header h3 {
 /* MAIN */
 
 main h2 {
-  color: #79b791;
+  color: #79b1b7;
 }
 
 .container {
@@ -140,6 +141,7 @@ main h2 {
 
 .foto {
   display: flex;
+  align-items: center;
   flex-basis: 33%;
 }
 
@@ -149,16 +151,16 @@ main h2 {
   border-radius: 50%;
   object-fit: cover;
   border: transparent solid 5px;
-  border-bottom: #9179b7 solid 5px;
+  border-bottom: #da845c solid 5px;
   padding: 5px;
   box-sizing: border-box;
 }
 
 .foto img:hover {
   transition: ease-out 1s;
-  border-top: 5px solid #79b791;
-  border-left: 5px solid #79b791;
-  border-right: 5px solid #79b791;
+  border-top: 5px solid #79b1b7;
+  border-left: 5px solid #79b1b7;
+  border-right: 5px solid #79b1b7;
 }
 
 .persoonlijk {
@@ -191,13 +193,13 @@ main h2 {
   padding-right: 15px;
   display: flex;
   flex-direction: column;
-  border-right: #9179b7 solid 5px;
+  border-right: #da845c solid 5px;
 }
 
 .right-wrapper {
   margin-left: 10px;
   padding-left: 15px;
-  border-left: #79b791 solid 5px;
+  border-left: #79b1b7 solid 5px;
 }
 
 .skills li {
@@ -299,7 +301,7 @@ footer {
 }
 
 body.index #myBtn {
-  background-color: #79b791;
+  background-color: #79b1b7;
 }
 body.blog #myBtn {
   background-color: #9179b7;
@@ -373,13 +375,13 @@ body.blog #myBtn {
   text-decoration-style: double;
   text-decoration-style: wavy;
   text-decoration-style: solid;
-  text-decoration-color: #79b791;
+  text-decoration-color: #79b1b7;
   text-decoration-thickness: 1px;
   text-decoration-thickness: 2px;
   margin-bottom: 1rem;
   color: #9179b7;
   border-bottom-style: double;
-  border-color: #79b791;
+  border-color: #79b1b7;
   width: fit-content;
 }
 
