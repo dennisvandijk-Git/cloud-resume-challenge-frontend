@@ -207,7 +207,7 @@ main h2 {
 }
 
 .cloudresumechallenge ul {
-  list-style: none;
+  padding-left: 1.5em;
 }
 
 .experience ul {
