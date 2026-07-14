@@ -10,6 +10,10 @@
     font-size: 1.2em;
   }
 
+  #resume-header h3 {
+    max-width: 70ch;
+  }
+
   .container {
     align-items: center;
     flex-direction: column;
@@ -92,6 +96,7 @@
     color: rgb(85, 85, 85);
   }
 }
+
 .back-to-top a {
   color: white;
 }
