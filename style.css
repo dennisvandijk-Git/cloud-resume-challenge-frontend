@@ -1,3 +1,9 @@
+/* CUSTOM PROPERTIES */
+:root {
+  --main-color: #79b1b7;
+  --secondary-color: #da845c;
+}
+
 /* GENERAL */
 
 *,
@@ -20,7 +26,6 @@ main {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-family: "IBM Plex Mono", sans-serif;
   display: flex;
   justify-content: center;
@@ -88,7 +93,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 15em;
-  background-image: linear-gradient(to top right, #79b1b7, #5b9294);
+  background-image: linear-gradient(to top right, var(--main-color), #5b9294);
   flex-direction: column;
 }
 
@@ -100,14 +105,13 @@ header h1 {
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   display: flex;
-  letter-spacing: 0.1rem;
   color: white;
-  font-size: clamp(4.5rem, 3vw + 1rem, 3rem);
+  font-size: clamp(2.2rem, 5vw + 1.2rem, 4.2rem);
   z-index: 2;
 }
 
 header h3 {
-  text-align: center;
+  /* text-align: center; */
   font-family: "IBM Plex Mono", sans-serif;
   font-family: "IBM Plex Mono Light", sans-serif;
   font-family: "IBM Plex Mono Thin", sans-serif;
@@ -116,7 +120,7 @@ header h3 {
   font-weight: normal;
   display: flex;
   color: white;
-  font-size: clamp(0.5rem, 0.9vw + 0.5rem, 1rem);
+  font-size: clamp(0.5rem, 1vw + 0.3rem, 0.9rem);
   z-index: 2;
 }
 
@@ -130,7 +134,7 @@ header h3 {
 /* MAIN */
 
 main h2 {
-  color: #79b1b7;
+  color: var(--main-color);
 }
 
 .container {
@@ -150,16 +154,16 @@ main h2 {
   border-radius: 50%;
   object-fit: cover;
   border: transparent solid 5px;
-  border-bottom: #da845c solid 5px;
+  border-bottom: var(--secondary-color) solid 5px;
   padding: 5px;
   box-sizing: border-box;
 }
 
 .foto img:hover {
   transition: ease-out 1s;
-  border-top: 5px solid #79b1b7;
-  border-left: 5px solid #79b1b7;
-  border-right: 5px solid #79b1b7;
+  border-top: 5px solid var(--main-color);
+  border-left: 5px solid var(--main-color);
+  border-right: 5px solid var(--main-color);
 }
 
 .persoonlijk {
@@ -192,13 +196,13 @@ main h2 {
   padding-right: 15px;
   display: flex;
   flex-direction: column;
-  border-right: #da845c solid 5px;
+  border-right: var(--secondary-color) solid 5px;
 }
 
 .right-wrapper {
   margin-left: 10px;
   padding-left: 15px;
-  border-left: #79b1b7 solid 5px;
+  border-left: var(--main-color) solid 5px;
 }
 
 .skills li {
@@ -291,7 +295,7 @@ footer {
 }
 
 body.index #myBtn {
-  background-color: #79b1b7;
+  background-color: var(--main-color);
 }
 body.blog #myBtn {
   background-color: #9179b7;
@@ -365,13 +369,13 @@ body.blog #myBtn {
   text-decoration-style: double;
   text-decoration-style: wavy;
   text-decoration-style: solid;
-  text-decoration-color: #79b1b7;
+  text-decoration-color: var(--main-color);
   text-decoration-thickness: 1px;
   text-decoration-thickness: 2px;
   margin-bottom: 1rem;
   color: #9179b7;
   border-bottom-style: double;
-  border-color: #79b1b7;
+  border-color: var(--main-color);
   width: fit-content;
 }
 

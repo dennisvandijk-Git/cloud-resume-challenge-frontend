@@ -10,9 +10,9 @@
     font-size: 1.2em;
   }
 
-  #resume-header h3 {
+  /* #resume-header h3 {
     max-width: 70ch;
-  }
+  } */
 
   .container {
     align-items: center;
@@ -135,17 +135,17 @@
     padding: 0px;
   }
   header {
-    height: 10em;
+    height: 10rem;
     padding: 2%;
   }
   header h1 {
     text-decoration: none;
-    font-size: 2.1em;
-    font-weight: 500;
+    /* font-size: 2.1em; */
+    /* font-weight: 500; */
     font-family: "IBM Plex Mono", sans-serif;
-    letter-spacing: 1px;
-    align-content: start;
-    display: flex;
+    /* letter-spacing: 1px; */
+    /* align-content: start; */
+    /* display: flex; */
   }
   .blog-header h1 {
     letter-spacing: 0.2rem;
