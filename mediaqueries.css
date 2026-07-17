@@ -147,6 +147,40 @@
     /* align-content: start; */
     /* display: flex; */
   }
+  header h3 {
+    font-weight: bold;
+    /* flex-direction: column; */
+  }
+  h3 span {
+    display: block;
+    /* line-height: 1.5; */
+  }
+  h3 .sub-tekst span {
+    display: inline;
+    line-height: 2.5;
+    /* font-size: xx-small; */
+  }
+  h3 .it-professional {
+    font-size: small;
+    line-height: 2;
+  }
+  h3 .sub-tekst .pipe {
+    display: none;
+  }
+  h3 .komma {
+    display: none;
+  }
+  /* h3 .automatisering {
+    display: block;
+  } */
+  /* h3 .cloud {
+    display: block;
+  }
+  h3 .and {
+    display: none;
+  }
+  h3 .platform-engineering {
+  } */
   .blog-header h1 {
     letter-spacing: 0.2rem;
   }

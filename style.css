@@ -112,13 +112,13 @@ header h1 {
 
 header h3 {
   /* text-align: center; */
-  font-family: "IBM Plex Mono", sans-serif;
-  font-family: "IBM Plex Mono Light", sans-serif;
-  font-family: "IBM Plex Mono Thin", sans-serif;
+  /* font-family: "IBM Plex Mono", sans-serif; */
+  /* font-family: "IBM Plex Mono Light", sans-serif; */
+  /* font-family: "IBM Plex Mono Thin", sans-serif; */
   font-family: "IBM Plex Mono ExtraLight", sans-serif;
   font-style: italic;
   font-weight: normal;
-  display: flex;
+  /* display: flex; */
   color: white;
   font-size: clamp(0.5rem, 1vw + 0.3rem, 0.9rem);
   z-index: 2;
