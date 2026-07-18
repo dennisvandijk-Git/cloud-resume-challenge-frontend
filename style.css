@@ -101,7 +101,6 @@ header h1 {
   text-decoration: double;
   text-decoration-line: overline;
   text-decoration-thickness: 1px;
-  font-family: "IBM Plex Mono", sans-serif;
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   display: flex;
@@ -111,14 +110,9 @@ header h1 {
 }
 
 header h3 {
-  /* text-align: center; */
-  /* font-family: "IBM Plex Mono", sans-serif; */
-  /* font-family: "IBM Plex Mono Light", sans-serif; */
-  /* font-family: "IBM Plex Mono Thin", sans-serif; */
   font-family: "IBM Plex Mono ExtraLight", sans-serif;
   font-style: italic;
   font-weight: normal;
-  /* display: flex; */
   color: white;
   font-size: clamp(0.5rem, 1vw + 0.3rem, 0.9rem);
   z-index: 2;
@@ -330,12 +324,10 @@ body.blog #myBtn {
 
 .blog-header {
   height: 10em;
-  background-image: linear-gradient(to top right, #907eaf, #9179b7);
   background-image: linear-gradient(to top right, #9179b7, #7f5cb9);
 }
 
 .blog-header h1 {
-  font-size: 4em;
   font-size: clamp(1.2rem, 4vw + 1rem, 4rem);
   color: #fff;
   display: flex;
@@ -366,12 +358,6 @@ body.blog #myBtn {
 }
 
 .blog-main h2 {
-  text-decoration-style: double;
-  text-decoration-style: wavy;
-  text-decoration-style: solid;
-  text-decoration-color: var(--main-color);
-  text-decoration-thickness: 1px;
-  text-decoration-thickness: 2px;
   margin-bottom: 1rem;
   color: #9179b7;
   border-bottom-style: double;
