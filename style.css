@@ -233,7 +233,10 @@ main h2 {
 .CRCtext {
   text-decoration: underline;
 }
-
+.blog-post {
+  font-family: "IBM Plex Mono Light";
+  font-weight: 600;
+}
 .blog-underline {
   text-decoration: underline;
 }

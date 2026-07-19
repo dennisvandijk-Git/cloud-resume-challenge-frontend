@@ -107,25 +107,6 @@
 }
 
 @media (max-width: 480px) {
-  header {
-    height: 12em;
-  }
-
-  .blog-header h1 {
-    letter-spacing: 0.3rem;
-  }
-  .blog-main h2 {
-    text-decoration-thickness: 1px;
-  }
-  #myBtn:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  #myBtn:hover:active {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-}
-
-@media (max-width: 410px) {
   .resume-container {
     margin: 0px;
     padding: 0px;
@@ -160,5 +141,11 @@
   }
   .blog-header h1 {
     letter-spacing: 0.2rem;
+  }
+  #myBtn:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  #myBtn:hover:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 }
